@@ -10,6 +10,7 @@
 }
 .socials{
 	margin: 7px 5px;
+	height: 36px;
 }
 .fa{
 	font-size: 36px;
@@ -17,7 +18,6 @@
 	text-align: center;
 	text-decoration: none;
 	color: white;
-	padding-bottom: 30px;
 }
 .fa:hover{
 	color: white;
