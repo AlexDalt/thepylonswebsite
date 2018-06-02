@@ -16,6 +16,9 @@ body{
 .bg-dark{
 	background-color: black!important;
 }
+.nav-link{
+	font-size: 2em!important;
+}
 .navbar .navbar-nav>.active>.nav-link{
 	color: rgb(253,224,166)
 }
