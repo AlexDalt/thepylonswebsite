@@ -1,6 +1,24 @@
 .logo{
 	height: 70px;
 }
+@font-face{
+	font-family: AdobeArabic;
+	src: url("adobe_arabic_regular.otf") format("opentype");
+}
+body{
+	font-family: AdobeArabic;
+	text-transform: uppercase;
+	font-style: italic;
+	letter-spacing: 0.20em;
+	background-color:grey;
+	color: rgb(253,224,166)
+}
+.bg-dark{
+	background-color: black!important;
+}
+.navbar .navbar-nav>.active>.nav-link{
+	color: rgb(253,224,166)
+}
 .footer {
   position: absolute;
   bottom: 0;
