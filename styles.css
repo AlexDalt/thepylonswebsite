@@ -5,7 +5,7 @@
 	font-family: AdobeArabic;
 	src: url("adobe_arabic_regular.otf") format("opentype");
 }
-body{
+body,input,button{
 	font-family: AdobeArabic;
 	text-transform: uppercase;
 	font-style: italic;
@@ -31,7 +31,7 @@ body{
 	color: rgb(253,224,166)
 }
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   background-color: black;
