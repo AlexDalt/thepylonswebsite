@@ -2,7 +2,7 @@
 	font-family: AdobeArabic;
 	src: url("adobe_arabic_regular.otf") format("opentype");
 }
-body,input,button{
+body,input,button,.songkick-widget{
 	font-family: AdobeArabic;
 	text-transform: uppercase;
 	font-style: italic;
