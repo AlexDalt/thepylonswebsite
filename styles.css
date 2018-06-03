@@ -2,8 +2,8 @@
 	font-family: AdobeArabic;
 	src: url("adobe_arabic_regular.otf") format("opentype");
 }
-body,input,button,body.dark.with-other-artists{
-	font-family: AdobeArabic;
+body,input,button{
+	font-family: AdobeArabic, sans-serif;
 	text-transform: uppercase;
 	font-style: italic;
 	letter-spacing: 0.20em;
