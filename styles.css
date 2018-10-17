@@ -1,13 +1,18 @@
+:root{
+	--pylons-mag: #fc23dd;
+	--pylons-cya: #93f1fe;
+	--pylons-ora: #fecd8d;
+}
 @font-face{
 	font-family: AdobeArabic;
-	src: url("adobe_arabic_regular.otf") format("opentype");
+	src: url("vcr.ttf") format("truetype");
 }
 body,input,button{
 	font-family: AdobeArabic, sans-serif;
 	text-transform: uppercase;
 	font-style: italic;
 	letter-spacing: 0.20em;
-	color: rgb(253,224,166);
+	color: var(--pylons-ora);
 }
 form,h3{
 	margin: 10px;
@@ -28,7 +33,7 @@ h3{
 	margin-bottom: 100px;
 }
 .logo{
-	height: 50px;
+	height: 70px;
 }
 .background-image{
 	position: fixed;
@@ -53,19 +58,19 @@ h3{
 	filter: blur(5px) brightness(0.5);
 }
 .btn-primary{
-	background-color: rgb(253,224,166);
+	background-color: var(--pylons-ora);
 	color: black;
 	border-style:none;
 }
 .btn-primary:hover{
-	color: rgb(253,224,166);
-	background-color: DimGrey;
+	color: var(--pylons-ora);
+	background-color: darkgrey;
 	border-style:none;
 }
 .embed-responsive-16by9{
 	position:absolute;
-	max-width: 90%!important;
-	max-height: calc(100% - 300px);
+	max-width: 100%!important;
+	max-height: calc(100%);
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-52%);
@@ -78,7 +83,7 @@ h3{
 	font-size: 2em!important;
 }
 .navbar .navbar-nav>.active>.nav-link{
-	color: rgb(253,224,166)
+	color: var(--pylons-mag)
 }
 .footer {
   position: fixed;
@@ -94,10 +99,10 @@ h3{
 	width: 40px;
 	text-align: center;
 	text-decoration: none;
-	color: white;
+	color: var(--pylons-cya);
 }
 .fa:hover{
-	color: white;
+	color: var(--pylons-cya);
 	text-decoration: none;
 	opacity: 0.7;
 }
